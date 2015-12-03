@@ -12,27 +12,27 @@ The shell and bash are both command line interpreters found in your computer and
 
 Can you remember what each of the following does from the top of your head? Write what each does.
 
--pwd =will show you where you are located in the terminal, so you don’t get lost.
+- **pwd** will show you where you are located in the terminal, so you don’t get lost.
 
--ls =will list all the files within that directory
+- **ls** will list all the files within that directory
 
--mv =will move a file from one place to another or completely mv files from one to another eliminating the other
+- **mv** will move a file from one place to another or completely mv files from one to another eliminating the other
 
--cd =change directory
+- **cd** change directory
 
--../ =go back a directory
+- **../** go back a directory
 
--touch =create a file
+- **touch** create a file
 
--mkdir =make a new directory(folder)
+- **mkdir** make a new directory(folder)
 
--less =will show you what’s inside a file but show it in sections so its organize not like using cat which displays it all and can be over whelming.
+- **less** will show you what’s inside a file but show it in sections so its organize not like using cat which displays it all and can be over whelming.
 
--rmdir =removes the directory
+- **rmdir** removes the directory
 
--rm =will remove a file. If there is a folder and tons of unwanted files inside you can use rm –rf to remove it all.
+- **rm** will remove a file. If there is a folder and tons of unwanted files inside you can use rm –rf to remove it all.
 
--help =or man is just finding a manual for a specific command to understand what other things the command can do.
+- **help or man** is just finding a manual for a specific command to understand what other things the command can do.
 
  
 
@@ -40,31 +40,28 @@ Can you remember what each of the following does from the top of your head? Writ
 
 Creating a new repo is good for when you to start a project and need to keep your files securely on Github. Now other teammates may want to fork your project to try and improve your code. This is helpful because others are now collaborating which helps your project grow. You have the option to accept/reject any of their changes. I would recommend forking a repository because it’s the easiest way to contribute to someone else work. When you fork you create a copy of it for yourself and now you can do whatever you want without damaging the original repository. Below are the instructions in creating a new repo, forking a repo, and cloning.
 
+
+**Instruction To: create new repo.**
+---
  
 
- 
-
-Instruction To: create new repo.
-
- 
-
-Step 1: Keep Calm because this is super easy. If you rush through the steps you will struggle.
+**Step 1:** Keep Calm because this is super easy. If you rush through the **steps y**ou will struggle.
 
  
 
-Step 2: First make sure you have a Github account set up then go to your profile page.
+**Step 2:** First make sure you have a Github account set up then go to your profile page.
 
  
 
-Step 3: On your profile page click the tab that says Repositories.
+**Step 3:** On your profile page click the tab that says Repositories.
 
  
 
-Step 4: To the far right you will see a green button that says New. Click that button.
+**Step 4:** To the far right you will see a green button that says New. Click that button.
 
  
 
-Step 5: Now you will be on the Create a new repository page and fill in the blanks.
+**Step 5:** Now you will be on the Create a new repository page and fill in the blanks.
 
 Create a Repository name base on the project name
 Create a small description about this project but it is not necessary, you will have time for that later
@@ -74,50 +71,50 @@ You could leave the license as None but if you want to play it safe you can choo
 Then click the green create repository button and Violà! You are done!
  
 
-Step 6: Go back to your profile page click Repository and you will see your first contribution
+**Step 6:** Go back to your profile page click Repository and you will see your first contribution
 
  
 
-Instructions To: Fork a repo.
+**Instructions To: Fork a repo.**
+---
+ 
+
+**Step 1:** If you want to fork a repo you must go to some else’s Github page.
 
  
 
-Step 1: If you want to fork a repo you must go to some else’s Github page.
+**Step 2:** click on the Repository tab and you will get a list of their reports. Click on any of them.
 
  
 
-Step 2: click on the Repository tab and you will get a list of their reports. Click on any of them.
+**Step 3:** Now you are in that repository page which looks similar to your repo page. At the top right corner you will need to click on the fork button.
 
  
 
-Step 3: Now you are in that repository page which looks similar to your repo page. At the top right corner you will need to click on the fork button.
+**Step 4:** An alert box will appear asking Where should we fork this repository? Click on your name.
+
+**Step 5:** Now go to your profile page and you will see the Forked repo on your Repositories Tab.
 
  
 
-Step 4: An alert box will appear asking Where should we fork this repository? Click on your name.
+**Instructions To: Clone a repo.***
+---
 
-Step 5: Now go to your profile page and you will see the Forked repo on your Repositories Tab.
 
- 
-
-Instructions To: Clone a repo.
+**Step 1:** Click inside the Repository that you want to clone to your computer
 
  
 
-Step 1: Click inside the Repository that you want to clone to your computer
+**Step 2:** In the middle of the screen you will notice an HTTP Link. Copy that link.
 
  
 
-Step 2: In the middle of the screen you will notice an HTTP Link. Copy that link.
+**Step 3:** Go into your terminal and first determine where you want to clone you want to clone the repository.
 
  
 
-Step 3: Go into your terminal and first determine where you want to clone you want to clone the repository.
+**Step 4:** Now on your terminal type git clone (paste the link here) Do Not use the parenthesis example git clone https://github.com/brianbier/p0-cli-exploration.git (Links to an external site.)
 
  
 
-Step 4: Now on your terminal type git clone (paste the link here) Do Not use the parenthesis example git clone https://github.com/brianbier/p0-cli-exploration.git (Links to an external site.)
-
- 
-
-Step 5: You will be prompt with instructions to entering your GitHub username and password. Just follow the instructions. Then you will give it a few seconds for everything to transfer down to your machine and now you can work on that repository that you clone.
+**Step 5:** You will be prompt with instructions to entering your GitHub username and password. Just follow the instructions. Then you will give it a few seconds for everything to transfer down to your machine and now you can work on that repository that you clone.
