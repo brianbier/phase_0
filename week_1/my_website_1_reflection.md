@@ -1,16 +1,18 @@
-## Paste a link to your [USERNAME].github.io repository.
-Website: brianbier.github.io
+###My .github.io repository.
+
+[Website:]( brianbier.github.io
+ “my website")
 
 https://github.com/brianbier/brianbier.github.io
 
-##Explain how to create a repository on GitHub and clone the repository to your local computer to a non-technical person.
+###Explain how to create a repository on GitHub and clone the repository to your local computer to a non-technical person.
 
 Creating a new repo is great for when you are about to start a project and need to keep your files securely on Github. Now other people/teammates will be able to see your code. This is helpful because others can now collaborate. Clonin s basically creating a copy of that file on your local computer.
 
-#**Instruction for Beginners **
+**Instruction for Beginners **
 ---
 
- ## **Create a new repository**
+###Create a new repository
 
 **Step 1:** Keep Calm because this is super easy. If you rush through the **steps y** you will struggle.
 
@@ -30,21 +32,17 @@ Creating a new repo is great for when you are about to start a project and need 
 **Step 6:** Just click the green create repository button and Violà! You are all done!
 
 
----
 
-## **Clone a repository**
+###Clone a repository
 
 
 **Step 1:** Click inside the Repository that you want to clone to your computer
 
- 2
 **Step 2:** In the middle of the screen you will notice an HTTP Link. Copy that link.
 
- 
 
 **Step 3:** Go into your terminal and first determine where you want to clone you the repository.
 
- 
 
 **Step 4:** Now on your terminal type git clone _paste the link here_ 
 **Example** 
@@ -55,7 +53,7 @@ git clone _https://github.com/brianbier/p0-cli-exploration.git_
 
 
 
-# Describe what open source means.
+###Describe what open source means.
 
 Open Source means software that is made freely available for everyone and may be redistributed and modified. 
 In my Opinion Open source can be good and bad. If software is open source it can grow extremely fast, the quality of the software is very customizable and it will get plenty of attention from other developers. For someone like me who is trying to learn programming it is great thing because I can contribute to software and expand my knowledge. The bad side is there are people out there who are using these software’s in the wrong way and are bypassing licensing rules. Also I believe, if the owner of an open source Software decides to stop maintaining the program it can cause some chaos. 
@@ -68,11 +66,11 @@ For More information about Licenses go to <http://opensource.org/licenses> below
 > “ Open source licenses are licenses that comply with the Open Source Definition — in brief, they allow software to be freely used, modified, and shared. To be approved by the Open >Source Initiative (also known as the OSI), a license must go through the Open Source Initiative's license review process. “
 
 
-#What concepts were solidified in the challenge? Did you have any "aha" moments? What did you struggle with?
+###What concepts were solidified in the challenge? Did you have any "aha" moments? What did you struggle with?
 
 I was able to get a good grasp of every Release. Every time I understand something I had an “aha” moment. The only concept that I found confusing was in the previous lesson on creating different branches to push to github, merging, and pull request. Now after practice I have a good understanding of the workflow.
 
-#Did you find any resources on your own that helped you better understand a topic? If so, please list it.
+###Did you find any resources on your own that helped you better understand a topic? If so, please list it.
 
 * [Open Source Initiative (OSI)]( https://opensource.org/licenses “License Page")
 * [Article on Open Source material]( http://www.smashingmagazine.com/2010/03/a-short-guide-to-open-source-and-similar-licenses/ "License Page")
