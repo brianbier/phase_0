@@ -1,7 +1,6 @@
 ###My .github.io repository.
 
-[Website:]( brianbier.github.io
- “my website")
+[http://brianbier.github.io/]
 
 https://github.com/brianbier/brianbier.github.io
 
@@ -9,7 +8,7 @@ https://github.com/brianbier/brianbier.github.io
 
 Creating a new repo is great for when you are about to start a project and need to keep your files securely on Github. Now other people/teammates will be able to see your code. This is helpful because others can now collaborate. Clonin s basically creating a copy of that file on your local computer.
 
-**Instruction for Beginners **
+**Introduction for Beginners**
 ---
 
 ###Create a new repository
@@ -25,10 +24,15 @@ Creating a new repo is great for when you are about to start a project and need 
 **Step 5:** Now you will be on the Create a new repository page and fill in the blanks.
 
 * Create a Repository name should be base on the project name
+
 * Create a small description about this project but it is not necessary, you will have time for that later
+
 * Choose Public because if you set it as Private you will have to pay. **Remember this is Open Source**
+
 * You should leave the |.gitignore| dropdown as none since you don’t want to ignore any files.
+
 * **Licenses** There is a great article on the different types of licenses so please check that when you have a chance [Click here.]( http://www.smashingmagazine.com/2010/03/a-short-guide-to-open-source-and-similar-licenses/ "License Page") To play it safe you can choose MIT License, which is just giving others permission to reuse the software you created without limitations. The only restriction is that it be accompanied by the license agreement.
+
 **Step 6:** Just click the green create repository button and Violà! You are all done!
 
 
