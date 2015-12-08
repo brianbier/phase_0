@@ -2,8 +2,6 @@
 
 http://brianbier.github.io/
 
-yes whats the conflict
-
 
 https://github.com/brianbier/brianbier.github.io
 
