@@ -1,7 +1,9 @@
-###My .github.io repository.
+##My .github.io repository.
 
 http://brianbier.github.io/
-_made change_ and done 
+
+yes whats the conflict
+
 
 https://github.com/brianbier/brianbier.github.io
 
