@@ -1,6 +1,7 @@
 ###My .github.io repository.
 
-[http://brianbier.github.io/]
+http://brianbier.github.io/
+_made change_ and done 
 
 https://github.com/brianbier/brianbier.github.io
 
