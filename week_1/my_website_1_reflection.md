@@ -1,6 +1,7 @@
 ###My .github.io repository.
 
-[http://brianbier.github.io/]
+http://brianbier.github.io/
+yes whats the conflict
 
 https://github.com/brianbier/brianbier.github.io
 
