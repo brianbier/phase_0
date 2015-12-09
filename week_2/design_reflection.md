@@ -58,5 +58,5 @@ User experience design is simply designing a website that is beautiful but with 
 
 I think trying to find a service that was good and free in order to create a site map or a wireframe was difficult to find. Every service out there is charging a monthly subscription. 
 
-I found one that is pretty good and its completely free check it out: [Mockflow Site](https://app.mockflow.com/index.jsp?logout=yes)
+I found one that is pretty good and its completely free check it out: [Mockflow Site](https://mockflow.com/index.jsp)
 
