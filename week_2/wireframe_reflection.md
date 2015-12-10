@@ -25,4 +25,11 @@ I enjoy creating the wireframe using Balsamiq tools. What bothered me the most w
 
 
 My Index Page Wireframe:
-![Index Page Wireframe](images/wireframe_index.pdf "Index Page")
+![Index Page Wireframe](images/wireframe_index.png "Index Page")
+
+
+---
+
+
+My Blog Page Wireframe:
+![Blog Page Wireframe](images/wireframe_blog_index.png "Blog Page")
