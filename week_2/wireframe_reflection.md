@@ -21,3 +21,8 @@ The questions that I ask myself were how much information do I have to put when 
 ##Which parts of the challenge did you enjoy and which parts did you find tedious?
 
 I enjoy creating the wireframe using Balsamiq tools. What bothered me the most was finding a good program to create wireframes. I know Balsamiq has a free service if you are a student or working for a non-profit. I submitted an email application for the student portion and waiting to see if they offer me the free version for being a programming student. I will let everyone know if they approve it.
+
+
+
+My Index Page Wireframe:
+![Index Page Wireframe](images/wireframe_index.pdf "Index Page")
