@@ -72,3 +72,47 @@ footer p{
   font-size: 10px;
 }
 
+
+/*What is important to know when linking an external 
+file (like a stylesheet) to an HTML file?
+
+When using an external link in your website it is important to know that it 
+belongs in the head tag. Also try to put right before the closing tag of 
+the head tag. Knowing the correct text for the link will help you correctly
+link the page because if there is an error you will have a hard time finding it. 
+Using external links keeps everything organize and leaves your html page clutter free. 
+
+What tricks did you use to help you with positioning? 
+How hard was it to get the site as you wanted it?
+
+It was pretty simple getting the site to work correctly. The only hard time 
+I had was trying to get the table to be correctly aligned but we used the CSS 
+class vertical alignment and it that worked perfect. I learn about using text-align center,
+margin, padding, and float in order to position the elements where I wanted them to be. 
+
+What CSS did you use to modify the element style (like size, color, etc.)
+
+I use the following CSS techniques to style size,color,position,height etc...
+Color: black
+Text-align: center
+Font-size:12px
+Line-height: 1px
+Margin top:
+Padding:
+Font-weight:
+
+Did you modify the HTML to include classes or ids? If so, which did you choose and why?
+If you didn't, how would you know which one to add to your HTML?
+
+I did add Classes to my html page in order to keep my code organize and not having a
+section tag to have the same font-size as the other sections. I found it much easier to
+target direct classes rather than the elements itself. It would make it much difficult
+in the future if we have to target similar elements with different CSS. However, it is not always
+that useful, for example when all the text is going to be blue just target the text of the body to be blue.
+
+When you compared your site to the actual code base, which do you think had cleaner code
+that followed best practices and why?
+
+When I compared the site I notice that that my code was much cleaner than their code.
+They had their CSS right on the html page within the elements. They target everything
+individually and that can waste time. I would say that we followed best practices. */
