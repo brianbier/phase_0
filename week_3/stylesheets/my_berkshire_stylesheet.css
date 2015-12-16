@@ -1,0 +1,74 @@
+body {
+  background-color: #ffffff;
+  color: navy;
+}
+/* This is the CSS for the header */
+ a {
+  color: #800080;
+}
+a:visited {
+  color: red;
+}
+
+
+header {
+  text-align: center;
+  border-bottom: 1px solid #9a9a9a;
+}
+h1 {
+  font-weight: bold;
+  margin-bottom: -15px;
+}
+span {
+  font-size: 18px;
+}
+header > p {
+  font-size: 15px;
+}
+header strong {
+  font-size: 17px;
+}
+/* CSS for link and table properties */
+table {
+  margin-left: 8%;
+  margin-bottom: 3%;
+}
+td {
+  vertical-align: top;
+}
+table p {
+  font-size: 10px;
+  margin-top: -2px;
+}
+li {
+  color: navy;
+}
+
+/* Geico Image and Text */
+.geico-border{
+  border-bottom: 1px solid #9a9a9a;
+  border-top: 1px solid #9a9a9a;
+  text-align: center;
+  padding-top: 20px;
+  font-size: 10px;
+  padding-bottom: 20px;
+}
+img{
+  margin-bottom: -7px;
+}
+.geico-border p{
+line-height: 1px;
+}
+.contact{
+border-bottom: 1px solid #9a9a9a;
+font-size: 12px;
+}
+
+footer{
+  margin-top: 20px;
+}
+
+footer p{
+  font-size: 10px;
+}
+
