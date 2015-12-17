@@ -10,21 +10,23 @@ You can target the elements on the DOM by using the actual HTML element tags or 
 
 ##What are the differences between absolute, fixed, static, and relative positioning? Which did you find easiest to use? Which was most difficult?
 
-*Static: no special positioning, It will remain where it is.
-*Relative: will position any element relative to its normal position. Any changes to the top, right, bottom, or left will move it away from its normal position. IT will always maintain its position of being in front of everything else.
+* **Static:** no special positioning, It will remain where it is.
 
-*Fixed: elements will be positioned relative to the browser window and will stay in the same place regardless of scrolling.
-*Absolute: elements with absolute positioning are relative to Any changes to the top, right, bottom, or left will move it towards its relative position. If there are any other objects around it will be place underneath.
+* **Relative:** will position any element relative to its normal position. Any changes to the top, right, bottom, or left will move it away from its normal position. IT will always maintain its position of being in front of everything else.
+
+* **Fixed:** elements will be positioned relative to the browser window and will stay in the same place regardless of scrolling.
+
+* **Absolute:** elements with absolute positioning are relative to Any changes to the top, right, bottom, or left will move it towards its relative position. If there are any other objects around it will be place underneath.
 
 I have to say that the use of relative was the easiest for me when targeting elements. The reason is that it easily moves the divs around and it never tried to hide itself behind another div. The most difficult was the absolute because it constantly appeared in the back of other divs. 
 
 ##What are the differences between margin, border, and padding?
 
-*Padding surrounds content and any changes to it will impact the area in the content as well. Example: You can push the borders of your both to create some space
+* **Padding** surrounds content and any changes to it will impact the area in the content as well. Example: You can push the borders of your both to create some space
 
-*Border is outside of the content and defines the edge of the element. Example: Using border can create a box
+* **Border** is outside of the content and defines the edge of the element. Example: Using border can create a box
 
-*Margin defines space around elements and will clear an area outside of the border.Example This will move you away from content that is near your element.
+* **Margin** defines space around elements and will clear an area outside of the border.Example This will move you away from content that is near your element.
 
 #What was your impression of this challenge overall? (love, hate, and why?)
 
