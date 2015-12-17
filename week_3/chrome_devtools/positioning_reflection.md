@@ -6,7 +6,7 @@
 
 ##How can you resize elements on the DOM using CSS?
 
-You can target the elements on the DOM by using the actual HTML element tags or using the class and ID's that you create. By using CSS you can change the height, width or any other property that you desire. Everything in the DOM is an object so can target anything that you like for example **(<p>, <h1>, <div>, <article>, <span>).**
+You can target the elements on the DOM by using the actual HTML element tags or using the class and ID's that you create. By using CSS you can change the height, width or any other property that you desire. Everything in the DOM is an object so can target anything that you like for example **(p, h1, div, article, span).**
 
 ##What are the differences between absolute, fixed, static, and relative positioning? Which did you find easiest to use? Which was most difficult?
 
