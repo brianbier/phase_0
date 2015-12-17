@@ -31,9 +31,9 @@ I have to say that the use of relative was the easiest for me when targeting ele
 #What was your impression of this challenge overall? (love, hate, and why?)
 
 I think these challenge were overall great. It had the perfect amount of mental challenge as well as a great use of the Chrome DevTools. I was challenge by this assignement since I had never really sat down and try to understand what all these CSS styles actually do. Thanks DBC!
----
 
-##Change the Colors
+
+##1.Change the Colors
 
 ![Change The Colors](images/change_colors.png)
 
