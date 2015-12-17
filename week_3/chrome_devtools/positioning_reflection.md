@@ -35,5 +35,5 @@ I think these challenge were overall great. It had the perfect amount of mental 
 
 ##1.Change the Colors
 
-![Change The Colors](images/change_colors.png)
+![Change The Colors](images/change_color.png)
 
