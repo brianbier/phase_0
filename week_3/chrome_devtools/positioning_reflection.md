@@ -37,3 +37,35 @@ I think these challenge were overall great. It had the perfect amount of mental 
 
 ![Change The Colors](images/change_color.png)
 
+##2.Column
+
+![Column](images/column.png)
+
+##3.Row
+
+![Row](images/row.png)
+
+##4.Make Equidistant
+
+![Make Equal Distant](images/make_equidistant.png)
+
+##5.Squares
+
+![Squares](images/squares.png)
+
+##6.Footer
+
+![Footer](images/footer.png)
+
+##7.Header
+
+![Header](images/header.png)
+
+##8.Sidebar
+
+![Sidebar](images/sidebar.png)
+
+##9.Get Creative
+
+![Creative](images/creative.png)
+
