@@ -44,3 +44,6 @@ Example:
 ##What is the difference between float and integer division? How would you explain the difference to someone who doesn't know anything about programming?
 
 The difference between a float and an integer division is that integers will always return a whole number and if it cannot divide that number it will round down. When you divide using floats you will get a decimal number but it does not make any sense to divide with decimals, so you will never use them. An example of using an integer to divide would be by saying that you have 2 kidneys and there are 3 people that need one. 3/2 = 1.5 you are not going to give someone half of your other kidney. So it makes sense to give your kidney to one lucky person only and keep the other for yourself.
+
+[Check out the section for 2.5 mini challanges here](calc.rb)
+
