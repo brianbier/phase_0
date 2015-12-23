@@ -61,8 +61,9 @@ The difference between a float and an integer division is that integers will alw
 
 Ruby handles arithmetic operations very well in the sense that it is very similar to the eye. The only difference is the use of the **Modulus %.** Modulus will divide the numbers and provide you with the remainder of the numbers if any.
 |Operators| Description|
-| + | Addition - Adds values on either side of the operatora
-| - | Subtraction - Subtracts right hand operand from left hand operator
+|---------| ----------- |
+| + | Addition - Adds values on either side of the operatora |
+| - | Subtraction - Subtracts right hand operand from left hand operator |
 | * | Multiplication - Multiplies values on either side of the operator |
 | / | Division - Divides left hand operand by right hand operand |
 | % | Modulus - Divides left hand operand by right hand operand and returns remainder |
@@ -94,12 +95,12 @@ Strings are just groups of letters and numbers that you put together to write so
 ```Ruby
 puts “This is a string and I will be making 2”
 
-puts “Here is the 2nd string. “ + “ Strings can be really useful to display text or capture text”
+puts “Here is the 2nd string. “ + “Strings can be really useful to display text or capture text”
 ```
 
 ##What are local variables? Why and when would you use them?
 
-Local variables are variables that are created in your text file in which store a particular text, formula, or integer. They can only be access within that text file and  take up memory in your file. We would use local variables when we do not want to either continue writing the same formula over and over or typing the same text over and over. Using local variables can save you time in your code makes your code look cleaner. 
+Local variables are variables that are created in your text file in which store a particular text, formula, or integer. They can only be access within that text file and  take up memory in your file. We would use local variables to avoid either writing the same formula over and over or typing the same text over and over. Using local variables can save you time coding and make your code look cleaner. 
 
 ```Ruby
 puts “This is a string and below are local variable”
