@@ -60,14 +60,14 @@ The difference between a float and an integer division is that integers will alw
 ##How does Ruby handle addition, subtraction, multiplication, and division of numbers?
 
 Ruby handles arithmetic operations very well in the sense that it is very similar to the eye. The only difference is the use of the **Modulus %.** Modulus will divide the numbers and provide you with the remainder of the numbers if any.
-|Operators| Description|
-|---------| ----------- |
-| + | Addition - Adds values on either side of the operatora |
-| - | Subtraction - Subtracts right hand operand from left hand operator |
-| * | Multiplication - Multiplies values on either side of the operator |
-| / | Division - Divides left hand operand by right hand operand |
-| % | Modulus - Divides left hand operand by right hand operand and returns remainder |
-| ** |Exponent - Performs exponential (power) calculation on operators |
+Operators| Description
+---| ---
+ + | Addition - Adds values on either side of the operatora 
+ - | Subtraction - Subtracts right hand operand from left hand operator 
+ * | Multiplication - Multiplies values on either side of the operator 
+ / | Division - Divides left hand operand by right hand operand 
+ % | Modulus - Divides left hand operand by right hand operand and returns remainder 
+ ** |Exponent - Performs exponential (power) calculation on operators 
 
 ##What is the difference between integers and floats?
 
