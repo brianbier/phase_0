@@ -12,6 +12,7 @@ puts counter
 counter += 1
 end
 end
+#Output below
 num 
 0
 1
