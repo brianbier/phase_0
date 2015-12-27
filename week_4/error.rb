@@ -329,3 +329,29 @@ I had created a simple file in the same directory called cartmas_essay.md
 
 # --- REFLECTION -------------------------------------------------------
 # Write your reflection below as a comment.
+=begin
+Which error was the most difficult to read?
+
+I found the third error messages difficult to read because they were backwards. 
+I think is probably because of the version of ruby that’s on my computer. 
+The type of error message was display after what had occurred. 
+Below is exactly what I saw on my terminal and see how the type of error is after the issue not like the example in canvas:
+
+error.rb:244:in `*': String can't be coerced into Fixnum (TypeError) from error.rb:244:in `<main>'
+
+How did you figure out what the issue with the error was?
+
+I figure all of the error messages because of the error description and the line it was located. 
+What I found most interesting was the divisionbyzero error message. I did not expect that Ruby would point that out. 
+
+Were you able to determine why each error message happened based on the code? 
+
+Yes it was pretty straightforward as to what the problems where in those questions.
+
+When you encounter errors in your future code, what process will you follow to help you debug?
+
+I will definitely read the error message clearly rather than being afraid of them. 
+I will also pay close attention to simple errors that I make constantly like creating a method with out an end of input, 
+not declaring the variable correctly or capitalizing a method. This will help me avoid errors but if they happen I can understand 
+what those error messages mean. I will also go to the ruby documentation to define any error message that I don’t understand.
+=end
