@@ -1,3 +1,48 @@
-body{
-  background-color: red;
+html, body {
+  margin: 0;
+  padding: 0;
+}
+header {
+  border-bottom: 1px solid #000;
+  background-color: #668cff;
+  padding: 20px;
+}
+
+header p {
+  font-weight: bold;
+}
+
+.column-1 {
+  float: left;
+  width: 50%;
+  margin-right: 15px;
+  margin-bottom: 15px;
+  margin-left: 10px;
+}
+
+.column-2 {
+  float: left;
+  width: 40%;
+  margin-bottom: 15px;
+}
+
+.column-1 h2, .column-2 h2 {
+  font-family: Arial;
+  margin-bottom: -18px;
+}
+
+a:hover {
+  color: red;
+}
+
+details p {
+  background-color: #d9d9d9;
+}
+
+footer {
+  clear: both;
+  border-top: 1px solid #000;
+  background-color: #668cff;
+  padding: 20px;
+  text-align: center;
 }
