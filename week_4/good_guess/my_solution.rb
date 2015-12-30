@@ -6,7 +6,3 @@ def good_guess?(integer)
     return false
   end
 end
-# I worked on this challenge [by myself, with: ].
-
-
-# Your Solution Below
