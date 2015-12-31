@@ -45,7 +45,7 @@ describe 'valid_triangle?' do
   it "returns false for any impossible triangle" do
     expect(invalid_triangles.all? do |triple|
       triple.permutation(3).all? { |(a,b,c)| !valid_triangle?(a,b,c) }
-    end).to be true
+    end).to be false
 
     # If you're reading this, be careful.  The to be_true throws people off.
     # This whole statement returns true if and only if valid_triangle? returns false
