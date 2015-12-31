@@ -1,5 +1,5 @@
 # I worked on this challenge [by myself, with: ].
-
+#WHEN PSUEDO CODING TRY AND WRITE THE PROBLEM YOU ARE TRYING TO SOLVE AND NOT THE CODE YOU NEED TO USE TO SOLVE THE PROBLEM.
 
 def valid_triangle?(int1,int2,int3)
   #first I need to understand what is an equilateral triangle which is all sides are the same
