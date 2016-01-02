@@ -7,7 +7,7 @@ def valid_triangle?(int1,int2,int3)
   if int1 == 0 || int2 == 0 || int3 == 0
     return false
   #IF all sides are equal then its an valid Equilateral triangle
-  elsif int1 == int2 && int3 == int1
+  elsif int1 == int2   && int3 == int1
     return true
     #ELSE IF two sides of a triangle are equal lengths than its an valid isosceles triangle
   elsif int1 == int2 || int1 == int3 || int2 == int3 
