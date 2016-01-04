@@ -1,5 +1,4 @@
 
-# Simple Substrings
 def welcome(address)
 #An if stament that  will return Welcome to california if the address includes "CA"
 #In order to check the string. I need to use a method to find CA inside the string
