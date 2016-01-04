@@ -44,5 +44,4 @@ def valid_triangle?(int1, int2, int3)
   return true if int1 == int2 && int1 == int3
   return true if int1 == int2 || int1 == int3 || int2 == int3
   return true if int1 ** 2 + int2 ** 2 == int3 **2 || int2 ** 2 + int3 ** 2 == int1 **2 || int3 ** 2 + int1 **2 == int2 **2
-  #inpossible triangle
 end
