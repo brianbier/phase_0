@@ -13,8 +13,7 @@
 # answer = gets.chomp
 
 # puts "what do you mean '#{answer}'! You are fired!!".upcase
-
-line_width = 20
-puts "Chapter1: Getting Started" + "page 1".center(line_width)
-puts "Chapter2: Numbers " + "page 9".rjust(line_width)
-puts "Chapter3: Letters  " + "page 13".rjust(line_width)
+content = ["chapter1: Getting Started","page 1","Chapter2: Numbers","page 9","Chapter3: Letters","page 13"]
+puts content[0] + content[1].rjust(20)
+puts content[2] + content[3].rjust(28)
+puts content[4] + content[5].rjust(29)
