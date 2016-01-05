@@ -15,14 +15,13 @@
 # Your Solution Below
 
 def count_between(list_of_integers, lower_bound, upper_bound)
-  return 0 if list_of_integers == [] || upper_bound < lower_bound
-   if lower_bound === upper_bound
-    return list_of_integers.count
-   elsif list_of_integers.count { |x| x > lower_bound && x < upper_bound}
-    return list_of_integers.count { |x| x > lower_bound && x < upper_bound}
-   end
-    return list_of_integers.size
+ count = []
+ return 0 if list_of_integers == [] || upper_bound < lower_bound
+  return list_of_integers.count if lower_bound === upper_bound
 
+  list_of_integers.each do |num|
+     count.push(num) if num >= lower_bound && num <= upper_bound
+    end
+    return count.length
 end
 
-# The code passes sometimes only if the array  number lands in 100
