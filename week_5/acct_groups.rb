@@ -1,28 +1,29 @@
+def groups(list_of_names)
+  group_list = { "group1"=> [], "group2" => [],"group3" =>[],"group4"=>[]}
 
-def group_names(array_of_names)
-group_1=Array.new
-group_2=Array.new
-group_3=Array.new
+  list_of_names.shuffle.each do |name|
 
-array_of_names.each do |name|
-  if group_1.length < 5
-    group_1.push(name)
-  elsif group_2.length < 5 
-    group_2.push(name)
-  else
-    group_3.push(name)
+    if group_list["group1"].length < 5
+      group_list["group1"].push(name)
+    elsif group_list["group2"].length < 5
+      group_list["group2"].push(name)
+    elsif group_list["group3"].length < 5
+      group_list["group3"].push(name)
+    else
+      group_list["group4"].push(name)
+        
+    end
   end
-
-  
-end
-puts "Here is group 1: #{group_1}"
-puts ""
-puts "Here is group 2: #{group_2}"
-puts ""
-puts "Here is group 2: #{group_3}"
-puts ""
+  puts group_list['group1']
+  puts ""
+  puts group_list['group2']
+  puts ""
+  puts group_list['group3']
+  puts ""
+  puts group_list['group4']
 end
 
-list_of_names = ["Brian Bier","Angela Flaquer","Genesis Bier","John Schwarts","Ana Garcia","Justin Bias","Alex Rodriguez","German Bier","Danelly Torres","David Woodruff","Jimmy Duraku","Scott black","Walter white"]
+names = ["Brian Bier","Angela Flaquer","Genesis Bier","John Schwarts","Ana Garcia","Justin Bias","Alex Rodriguez","German Bier","Danelly Torres","David Woodruff","Jimmy Duraku","Scott black","Walter white","Brendan Smith","Frank Delpideo",]
 
-group_names(list_of_names)
+
+groups(names)
