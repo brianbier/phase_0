@@ -8,12 +8,12 @@
 #   # satisfy condition where number > 0
 #   else
 #     # make an array to store all numbers from 1 --> number
-#     # array = (1..number)
-#     # start = 0
-#     # while start < number do
-#     #   start = start + 1
-#     #   array.push(start)
-#     # end
+#     array = (1..number)
+#     start = 0
+#     while start < number do
+#       start = start + 1
+#       array.push(start)
+#     end
 
 #     # make a new array to store products
     
