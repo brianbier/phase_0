@@ -10,8 +10,8 @@
 # Output: random number between 1..input_number
 # Steps: 
 # Create a class Then create an initialize method that create an instance variable 
-# Then pass an flow crontrol statement that will raise an argument if number is less than 1
-# Finally I will display the number and will generate a random number using the method rand
+# Then pass an flow crontrol statement that will raise an argument IF number is less than 1
+# Finally display the number and generate a random number.
 # 
 
 # 1. Initial Solution
