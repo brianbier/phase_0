@@ -28,3 +28,6 @@ end
 
 
 # Share any tricks you used to find and decipher the Ruby Docs
+# I dont have any particular tricks to understand the doc but I did take 1 hour to check and analyse where everything is. There is
+# so much contact that it can be overwhelming. When I try to solve a problem. I go to the class I am working with then I look for every method 
+# that sounds similar to what I am trying to do. So for the example in the top i look for a method that was deleting.
