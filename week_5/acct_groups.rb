@@ -72,7 +72,8 @@ within the array. What could make my program better is if two people are left on
 group without creating an additional group of two.
 
 What data structure did you decide to store the accountability groups in and why?
-I use an array to store the names because they are random individual names that are not representing anything. 
+I use an array to store the names because they are random individual names that are not representing anything within their order. It wouldnt
+make sense to use a hash because I am not associating any data together.
 In my initial solution I use a hash to create the multiple groups and inside the hash I had invidual empty arrays.
 
 What did you learn in the process of refactoring your initial solution? Did you learn any new Ruby methods?
