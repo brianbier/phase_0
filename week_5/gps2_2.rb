@@ -8,7 +8,7 @@
   # print the list to the console [can you use one of your other methods here?] Using Puts
 # output: It should be an Hash.
 ​
-def create_list(string_list)
+def create_list(grocery_list)
   answer_hash = Hash.new(1)
   list_array = string_list.split(" ")
   list_array.each do |item|
@@ -126,3 +126,32 @@ def print_list(grocery_list)
     puts "Buy: #{quantity} #{item}"
   end
 end
+
+
+#REFLECTIOIN
+
+=begin
+What did you learn about pseudocode from working on this challenge?
+I learned that when you create detail and specific pseudocode can help you a long way.
+
+What are the tradeoffs of using Arrays and Hashes for this challenge?
+I decided to use a hash to store the grocery list because I was associating an item with a quantity. 
+In a hash the order will not matter because I can call any item by just knowing the keys. An array would not work 
+as easy because arrays are order list and they don’t have any association with one another.
+
+What does a method return?
+The return method will output any evaluation that you choose but it will not display it on the console. 
+I prefer using the implicit return because it is less words to type and ruby already knows that it will output the last item in the method.
+
+What kind of things can you pass into methods as arguments?
+You pass any numbers or strings and other methods as arguments.
+
+How can you pass information between methods?
+You pass information by calling the method as an argument of another method.
+
+What concepts were solidified in this challenge, and what concepts are still confusing?
+Initially I had a hard time trying to wrap my head around this challenge because 
+I thought we were going to ask the user for information rather than us manually providing driver code. 
+The concepts that were solidified in this challenge was the storing and deleting of hashes and how to take an 
+array and store each array item into a hash with a set value.
+=end
