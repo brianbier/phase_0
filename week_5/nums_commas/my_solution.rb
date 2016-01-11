@@ -46,17 +46,9 @@ def separate_comma(number)
   elsif new_number.count > 7 && new_number.count <=8
     new_number[0..1].join()+ "," +new_number[2..4].join()+ "," + new_number[5..7].join()
   end
-
 end
 
-separate_comma(19999999)
-
-
-
-
-
-
-
+p separate_comma(10000000)
 
 
 
@@ -66,3 +58,13 @@ separate_comma(19999999)
 
 
 # 3. Reflection
+
+# • What was your process for breaking the problem down? What different approaches did you consider?
+# I use my pseudocode when deciding how I was going to approach this problem. I decided to split the number into an array and count how big the array was. If the array had more than 3 and less than 4 I would consider that number in the thousands place and I will print the first number in index 0 adding a comma to it and the rest of the numbers in the array will be joined.
+# • Was your pseudocode effective in helping you build a successful initial solution?
+# Yes My pseudocode was very helpful in building this solution.
+# • What new Ruby method(s) did you use when refactoring your solution? Describe your experience of using the Ruby documentation to implement it/them (any difficulties, etc.). Did it/they significantly change the way your code works? If so, how?
+# I had a hard time trying to refactor this solution. I know my solution is not as dynamic because if someone enters a extremely large number for what ever reason my code will not function at all.
+# • How did you initially iterate through the data structure?
+# I did not iterate through the number. I use flow control to print what I needed.
+
