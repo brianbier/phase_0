@@ -51,6 +51,18 @@ They replace the the method for the attr_reader :age
 Is this code simpler than the last?
 It is not simpler but with practice you begin to remember what attr_reader will do
 What I notice is that you write less code.
+
+#Release 3
+
+What changed between the last release and this release?
+They eliminated the method that was assigning the new age when you changed it outside of the class.
+
+What was replaced?
+THey replace what_is_age=(new_age) method with an attr_writer : age
+
+Is this code simpler than the last?
+It is not simpler but with practice you begin to remember what attr_writer will do
+What I notice is that you write less code.
 =end
 
 
