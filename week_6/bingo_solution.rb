@@ -17,6 +17,8 @@
 # Display the board to the console (prettily)
   #Create a method that will display the entire board game into the console
 
+
+
 # Initial Solution
 
 # class BingoBoard
