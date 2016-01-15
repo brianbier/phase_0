@@ -1,10 +1,13 @@
 # A Nested Array to Model a Bingo Board SOLO CHALLENGE
 
+# I spent [#] hours on this challenge.
+
 
 # Release 0: Pseudocode
 # Outline:
 
 # Create a method to generate a letter ( b, i, n, g, o) and a number (1-100)
+
   # create variable that will hold any random letter in the word bingo
   # Create a variable that will hold one random number
 
@@ -60,11 +63,13 @@
 
 
 # Refactored Solution
+
 class BingoBoard
 
   def initialize(board)
     @bingo_board = board
   end
+
   def call
     bingo_letters = ["B","I","N","G","O"]
     @letter = bingo_letters.sample
@@ -90,6 +95,9 @@ class BingoBoard
   end
 
 end
+
+
+
 
 #DRIVER CODE (I.E. METHOD CALLS) GO BELOW THIS LINE
 board = [[47, 44, 71, 8, 88],
