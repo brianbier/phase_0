@@ -73,11 +73,7 @@ class BingoBoard
   def check_board
     @bingo_board.each do |array|
       if array.is_a?(Array)
-         if array[@column_index] == @rand_number
-          array[@column_index] = " X"
-        else
-          array[@column_index]
-        end
+        array[@column_index] == @rand_number ? array[@column_index] = " X" : array[@column_index]
       end
     end
   end
@@ -106,5 +102,41 @@ new_game.check_board
 new_game.display_board
 
 #Reflection
+=begin 
+•How difficult was pseudocoding this challenge? What do you think of your pseudocoding style?
+I think my pseudocoding needs improvement in regards to best practices. 
+When I pseudocode I keep the code separate and it helps me understand the 
+problem logically. When I read my pseudocode It gives me a better idea of what methods I can use. 
+My only concern right now is how would this pseudo code look to  someone else. 
+Will they be able to read my pseudocode and know what I am trying to build? Please leave me feedback on my pseudocode.
 
+•What are the benefits of using a class for this challenge?
+The benefit of using a class for this challenge is that I can create multiple board games 
+and calling the methods within the class in order for the board game to operate correctly. This saves plenty of time.
+
+•How can you access coordinates in a nested array?
+You can access coordinates in a nested array by calling the array name with the appropriate 
+index numbers for example:
+    array = [1,2,3,4,5,[6,7,8,9],[10,11,12,13,14]] 
+      
+    array[6][2] #=> 7
+
+•What methods did you use to access and modify the array?
+I use the each method and then to access the inner arrays I used the .is_a? method to determine if the elements in 
+the outer array are arrays. This gives me a better chance in iterating through each inner array.
+
+•Give an example of a new method you learned while reviewing the Ruby docs. Based on what you see in the docs, what purpose does it serve, and how is it called?
+I learned about the .index method which will display the index of the particular element in the array.
+Also, the .each_with_index which will take an array and  create a hash with the element in the array 
+as the key and the value as the index of each element in the array.
+
+•How did you determine what should be an instance variable versus a local variable?
+I determined what should be an instance variable base on what was going to be accessed in other methods within the class
+
+•What do you feel is most improved in your refactored solution?
+I try refactoring each method slightly. I try to make my methods easier to read rather than making single line methods. 
+I do find myself having a hard time trying to refactor a solution. I don’t know why but I can’t find methods that can cut specific task in half. 
+If you have any tips on trying to refactor please let me know.
+
+=end
 
