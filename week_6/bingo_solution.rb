@@ -30,7 +30,7 @@
 #     @letters = ["B","I","N","G","O"]
 #     random_letter = ["B","I","N","G","O"].sample
 #     @letter_position = letters.index(random_letter)
-#     @number = 75
+#     @number = rand(1..100)
 #     @combination = "#{random_letter}:#{number.to_s}" 
 #   end
 
@@ -56,16 +56,42 @@
 
 # end
 
+
 # Refactored Solution
 class BingoBoard
 
   def initialize(board)
     @bingo_board = board
   end
+  def call
+    bingo_letters = ["B","I","N","G","O"]
+    @letter = bingo_letters.sample
+    @column_index = bingo_letters.index(@letter)
+    @rand_number = rand(1..100)
+  end
+
+  def check_board
+    @bingo_board.each do |array|
+      if array.is_a?(Array)
+         if array[@column_index] == @rand_number
+          array[@column_index] = " X"
+        else
+          array[@column_index]
+        end
+      end
+    end
+  end
+
+  def display_board
+    puts "First set:\n#{@letter}:#{@rand_number}"
+    puts ""
+    puts "B "+ ""+ " I"+ " " +" N" + " " + " G" + " " + " O"
+      @bingo_board.each do |array|
+          puts array.join("|")
+      end
+  end
 
 end
-
-
 
 #DRIVER CODE (I.E. METHOD CALLS) GO BELOW THIS LINE
 board = [[47, 44, 71, 8, 88],
@@ -74,13 +100,10 @@ board = [[47, 44, 71, 8, 88],
         [25, 31, 96, 68, 51],
         [75, 70, 54, 80, 83]]
 
-p new_game = BingoBoard.new(board)
-# new_game.call
-# new_game.check
-# puts ""
-# new_game.print
-
-
+new_game = BingoBoard.new(board)
+new_game.call
+new_game.check_board
+new_game.display_board
 
 #Reflection
 
