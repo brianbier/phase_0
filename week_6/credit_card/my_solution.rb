@@ -63,7 +63,7 @@ class CreditCard
       new_array.push(@card_number[index])
       end
     end
-     individual_card = @card_number.join("").split('').map(&:to_i)
+     individual_card = new_array.join("").split('').map(&:to_i)
 
       sum = 0
       individual_card.each do |i|
