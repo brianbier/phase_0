@@ -39,4 +39,20 @@ serving_size_calc("cookie", 1)
 serving_size_calc("cookie", 10)
 serving_size_calc("THIS IS AN ERROR", 5)
 #  Reflection
+=begin 
+• What did you learn about making code readable by working on this challenge?
+I learned that it takes longer to understand other people’s bad code before 
+I could execute my idea. I also learned how to quickly pick up on code that does not look well and needs improvement.
 
+• Did you learn any new methods? What did you learn about them?
+I learned a new technique with a particular method. The values_at method will look for the value at a 
+particular key and return the value but its output is an array of that value. If you want just the value itself you will include [0] to output the first value. Example
+    array = { array: [1,2,4],contant: 33}
+    array.values_at(:array)[0][0] #=> 1
+
+• What did you learn about accessing data in hashes? 
+I did not learn any other new features other than the one above.
+
+• What concepts were solidified when working through this challenge?
+I have to say that the use of the values_at was a method that I didn’t quite know how to use until this method.
+=end
