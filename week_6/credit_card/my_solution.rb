@@ -118,3 +118,25 @@ end
 new_card = CreditCard.new(4408041234567901)
 p new_card.check_card
 
+#REFLECTION
+
+=begin 
+•What was the most difficult part of this challenge for you and your pair?
+  The most difficult part was trying to get every other number in the array. 
+  We continue to look at ways that could work only with a range but then we came across a for 
+  loop that works although I was hesitant to use it because the for loop is not ruby convention.  
+  I figure in the refactoring process I can swap it for an each iterator.
+
+•What new methods did you find to help you when you refactored?
+  I found a lot of methods that help me with refactoring. The first method was
+  the .each_with_index, which iterates through an array and it increments or checks the index as well. 
+  This worked perfect for my solution. I also learned about the inject method which will do a 
+  particular action like add every number in order to find the total. Finally I started using the 
+  short hand (&:to_i) and (&:+) which substitute the longer version of {|n| n.to_i} and {|n| n + n}
+
+•What concepts or learning were you able to solidify in this challenge?
+  I was able to solidify the concept of the each with index method. I couldn’t figure out how it actually 
+  works since in the ruby doc they explain it well for a hash.  I have a better understanding of using Classes 
+  and making programs work. I actually enjoy using classes to create small programs. Using classes seems natural 
+  to me then when we first started last week.
+=end
