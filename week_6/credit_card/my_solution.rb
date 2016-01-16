@@ -63,18 +63,17 @@ class CreditCard
       new_array.push(@card_number[index])
       end
     end
-    p individual_card = @card_number.join("").split('').map(&:to_i)
+     individual_card = @card_number.join("").split('').map(&:to_i)
 
-    sum = 0
+      sum = 0
       individual_card.each do |i|
         sum += i
       end
-       p sum
 
     if  sum % 10  == 0 
-      p true
+       true
     else
-      p false
+      false
     end
 
   end
@@ -85,58 +84,8 @@ new_card = CreditCard.new(4408041234567901)
 new_card.check_card
 
 
-#array.inject{|sum,num| sum + num}
 
-# array = [1, 0, 9, 7, 6, 5, 4, 3, 2, 1, 4, 0, 8, 0, 4, 4] 
-# p reverse = array.reverse
-
-# new_array = []
-# for index in (0...reverse.length)
-#   if index.even? 
-#   new_array.push(reverse[index] *= 2)
-#   # puts "At position #{index}: #{reverse[index]}"
-# else
-#   new_array.push(reverse[index])
-# end
-# end
-# p yes = reverse
-
-
-# sum = 0
-# reverse.each do |i|
-#   sum += i
-# end
-# p sum
-# puts sum /10  # 6 
-
-
-
-# p yes.inject{|sum,num| sum + num}
-
-
-
-
-
-# Reflection
-
-farm_animals = ['cow','pig','horse','dog','sheep']
-
-# current_index = 0
-# farm_animals.each do |animal|
-#   p animal
-#   p current_index
-#   current_index += 1
-# end
-
-# http://ruby-doc.org/core-2.2.0/Enumerable.html#method-i-each_with_index
-
-# farm_animals.each_with_index do |animal, index|
-#   p animal
-#   p index
-# end
-
-
-
+#REFACTOR
 
 class CreditCard
 
@@ -147,9 +96,9 @@ class CreditCard
     end
   end
 
+# http://ruby-doc.org/core-2.2.0/Enumerable.html#method-i-each_with_index
   def check_card
     formatted_cc_numbers = []
-    
     @card_number.each_with_index do |item,index|
       if index.even?
         formatted_cc_numbers.push(item * 2)
@@ -160,13 +109,7 @@ class CreditCard
     
     individual_card = formatted_cc_numbers.join("").split('').map(&:to_i)
 
-    
-    #inject method
-    # sum = 0
-    # individual_card.each do |i|
-    #   sum += i
-    # end
-    sum = individual_card.inject{|sum,num| sum + num}
+   # sum = individual_card.inject{|sum,num| sum + num}
     sum = individual_card.inject(&:+)
     sum % 10  == 0 
   end
