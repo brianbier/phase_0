@@ -87,3 +87,4 @@ end
    To my understanding using symbols saves memory in your program and that symbols are used every time you need internal 
    identifiers. Symbols are immutable which means they will never have their value changed.Try playing the game with someone. I was 
    able to get the program to work on its own. There is still more room for improvement. Let me know if you have any ideas.
+=end
