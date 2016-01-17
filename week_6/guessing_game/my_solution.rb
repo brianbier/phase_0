@@ -22,8 +22,8 @@ class GuessingGame
 
   def guess(guess)
     @guess = guess
-    until @guess == @answer
-      if @guess > @answer
+    until guess == @answer
+      if guess > @answer
         return :high
       else
         return :low
