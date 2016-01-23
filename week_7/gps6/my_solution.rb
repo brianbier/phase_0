@@ -64,8 +64,6 @@ STATE_DATA.each do |state,value|
   VirusPredictor.new(state).virus_effects  
 end
 
-
-
 #=======================================================================
 
 # DRIVER CODE
@@ -118,5 +116,4 @@ Refactoring my own code seems to be very difficult but when I see other people's
 I solidify my understanding of thinking outside the box and being very open to other possibilities. 
 My guide suggested creating an instance variable assigned to the State data population, which is something I had no idea was possible. 
 
-  
 =end
