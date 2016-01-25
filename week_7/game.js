@@ -86,11 +86,23 @@ player.comparison(playerChoice)
 
 
 // Reflection
-//
-//
-//
-//
-//
-//
-//
-//
+/*
+What was the most difficult part of this challenge?
+I think the most difficult part of this challenge was the brainstorming of what kind of game I was going to create. 
+It is very difficult trying to start a game from scratch with very little skills in the language.
+I constantly kept thinking about this game in ruby in order to make it work in javascript. Initially I had a very difficult time trying to 
+make my initial solution to work. it looked very mechanical and everything was outside the object. Then I decided to include everything inside the object because
+my game was going to remain the same all the time.
+
+What did you learn about creating objects and functions that interact with one another?
+It helped me solidify my understanding of creating properties inside an object. 
+I also realize that you can create function as a value of a particular property inside your function.  
+
+Did you learn about any new built-in methods you could use in your refactored solution? If so, what were they and how do they work?
+How can you access and manipulate properties of objects?
+I try refactoring my solution but I couldn't find too many methods that could make my game easier to understand.  
+I did remove the multiple objects that I had created initially to only 4 properties with an array containing the different possibility of options. 
+I try naming the variables and arguments better for easier readability.You can access properties in an object by calling the object name and using either bracket notation or  a dot.
+for example: player.move() or player["move"]()
+
+*/
