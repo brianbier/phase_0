@@ -84,7 +84,8 @@
 
 
 // GO TO MY HTML FILE TO SEE THE GAME DISPLAY YOUR LOCATION IN THE PAGE.
-// LINK TO HTML: 
+// LINK TO HTML: https://github.com/brianbier/phase_0/blob/master/week_7/solo_game/index.html
+// Did not have time for the CSS
 
 var player = {
   exit: "You came accross an exhaust fan that was big enough for you to fit.",
