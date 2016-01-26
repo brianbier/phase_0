@@ -165,6 +165,5 @@ Did you learn about any new built-in methods you could use in your refactored so
 How can you access and manipulate properties of objects?
 I try refactoring my solution but I couldn't find too many methods that could make my game easier to understand.  
 I did remove the multiple objects that I realize were not very useful when I began to place my code into the html file.
-I was able to create a loop that keeps the code running if the player continues playing.
-
+I was able to create a loop that keeps the code running if the player continues playing. There isn't to many options for the game to go but it can grow.
 */
