@@ -22,9 +22,10 @@
 //  ELSE It will return the users move and a message letting you know you are still in the house.
 // The game ends when the correct move is equal to users move.
 
+
+
 // Initial Code
 //Welcome to the maze runner JS edition. 
-
 //In this game your goal is to try and exit the house that 
 //you are trapped inside.
 //The house is a maze which changes with every move that you make.
