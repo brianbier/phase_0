@@ -15,7 +15,8 @@ var scores = [ [80, 70, 70, 100],
                [75, 70, 80, 75],
                [100, 90, 95, 85] ]
 
-
+// {student: "Joseph", socre: []}
+// {{Joseph: []}}
 
 
 
@@ -23,33 +24,62 @@ var scores = [ [80, 70, 70, 100],
 // __________________________________________
 // Write your code below.
 
+var gradebook = {};
+students.forEach(function(students) {
+                 gradebook[students] = {}
+                })
+console.log(gradebook)
+
+               
+// for (var i = 0; i < students.length; i ++) {
+//   scores.forEach(function(testScores, i){
+//     gradebook[students[i]]['testScores'] = testScores
+//   })
+// }
+
+               
+// Refactored Release 3
+scores.forEach(function(testScores, i){
+    gradebook[students[i]]['testScores'] = testScores
+  })
 
 
+gradebook.addScore = function(name, scorearguments){
+  gradebook[name].testScores.push(scorearguments)
+}
 
+gradebook.getAverage = function(name){
+  return average(gradebook[name].testScores)
+};
 
+function average(array){
+  // This function works in coderpad but it does work using node so I had to do it the long way.
+  // return array.reduce((a, b) => a + b)/array.length;
+  return array.reduce(function(firstNumber,secondNumber){ return firstNumber + secondNumber})/array.length;
+}
 
-
-
-// __________________________________________
-// Refactored Solution
-
-
-
-
-
-
-
+console.log(gradebook)
 
 // __________________________________________
 // Reflect
+/*
+What did you learn about adding functions to objects?
+I learned how to add a function to an object and then how to call  
+a function outside of the object into a function within an object. 
 
+How did you iterate over nested arrays in JavaScript?
+First I was thinking of iterating using a for loop but then my pair 
+knew a better method to iterate through an array and we used a forEach  
+method that takes an argument and does something to each element of an array. 
+You can also call a second argument referring to the index of the array. 
+Check out my refactored solution for release 3.
 
-
-
-
-
-
-
+Were there any new methods you were able to incorporate? If so, what were 
+they and how did they work?
+I learned about the .forEach method to iterate through an array and the reduce 
+method which goes through an array and does a specific task to the array every time. 
+We used the reduce method to add every number in the array reducing it to just one number.
+*/
 
 // __________________________________________
 // Test Code:  Do not alter code below this line.
