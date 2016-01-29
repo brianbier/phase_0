@@ -1,6 +1,6 @@
 **1. Select all data from States**
 
-  SELECT * FROM states;
+⋅⋅⋅SELECT * FROM states;
 
 **2. Select all data from regions**
 
