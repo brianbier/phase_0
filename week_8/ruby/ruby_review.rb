@@ -75,3 +75,20 @@ end
 
 
 # Reflection
+
+=begin
+What concepts did you review or learn in this challenge?
+I review the Super Fizzbuzz challenge
+
+What is still confusing to you about Ruby?
+So far ruby is not to confusing. I think the hardest part for me is 
+refactoring a solution in ruby. I always seem to get stuck in not being able to refactor 
+my solution because I can't find the right methods to perform the task.
+
+What are you going to study to get more prepared for Phase 1?
+
+I am going to review more about classes in ruby to prepare for phase 1. 
+I think classes were very useful but switching back and forth with different 
+languages sort of confuses me a bit. 
+
+=end
