@@ -1,8 +1,9 @@
 **1. Select all data from States**
 
-SELECT * FROM states;
+  SELECT * FROM states;
 
 **2. Select all data from regions**
+
 SELECT * FROM regions;
 
 **3. Select the state_name and population for all states.**
