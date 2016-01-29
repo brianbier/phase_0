@@ -1,7 +1,5 @@
 // Tally Votes in JavaScript Pairing Challenge.
 
-// I worked on this challenge with:
-// This challenge took me [#] hours.
 
 // These are the votes cast by each student. Do not alter these objects here.
 var votes = {
@@ -176,10 +174,28 @@ console.log(officers)
 
 // __________________________________________
 // Reflection
+/*
+What did you learn about iterating over nested objects in JavaScript?
 
+I learned how to iterate through nested objects using the for in loop  and the ability to 
+manipulate the data while iterating through the nested objects. I also improve my skills of assigning 
+values to properties in other objects.
+Were you able to find useful methods to help you with this?
 
+We did not use any methods for this challenge. We thought our process was very simple 
+and clear. We decided to refactor the solution using proper names for the variables to make the 
+functions more readable. I've created comments in each line of code to help you better understand the process. 
 
+What concepts were solidified in the process of working through this challenge?
 
+I solidified the process of accessing nested objects using the for in loop. I was able to understand 
+what the undefined means and how it can sometimes come in handy. 
+
+I have to say this project was very challenging and especially within the first if statement. 
+Trying to understand what I was assigning to vote count was somewhat challenging because it was not easy to picture. 
+I definitely enjoy working on this challenge and I put the console log to good use this time. 
+
+*/
 
 
 // __________________________________________
