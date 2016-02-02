@@ -66,42 +66,59 @@
 // console.log(groceryList);
 
 
-//REFACTOR
+
+
+
+
+//REFACTOR CONSTRUCT
 
 
 function createList(items){
+  this.items = items.split(" ");
   var list = {}
-var split_items = items.split(" ");
-  for(var i = 0; i < split_items.length;i++){
-    list[split_items[i]] = 0;
+  for(var i = 0; i < this.items.length;i++){
+    list[this.items[i]] = 0;
   }
-  return list;
-
-}
-
-function addItem(itemName,list,quantity){
-  list[itemName] = quantity;
-}
-
-function removeItem(itemName,list){
-  delete list[itemName];
   
+  this.addItem = function(itemName,quantity){
+    list[itemName] = quantity
+  }
+  this.removeItem = function(itemName){
+    delete list[itemName]
+  }
+  this.updateQuantity = function(itemName,quantity){
+    list[itemName] = quantity;
+  }
+  this.display = function(){
+  console.log(list)
 }
 
-function updateQuantity(itemName,list,quantity){
- list[itemName] = quantity; 
 }
 
 
-var groceryList = createList("carrots apples cereal pizza")
-addItem("milk",groceryList,2);
-removeItem("carrots",groceryList)
-updateQuantity("cereal",groceryList,3)
-console.log(groceryList)
+var groceryList = new createList("carrots apples cereal pizza")
+groceryList.addItem("milk",2);
+groceryList.display();
+groceryList.addItem("sugar",3);
+groceryList.display();
+groceryList.removeItem("cereal");
+groceryList.updateQuantity("carrots",4);
+groceryList.display();
+console.log(groceryList instanceof createList)
 
+//REFLECTION
+/*
+What concepts did you solidify in working on this challenge? 
+(reviewing the passing of information, objects, constructors, etc.)
+I solidify my understanding of building a constructor and passing information within. 
+I was constantly confused every time I used the "this" keyword. 
+I now realize that it refers to the global object you are passing into an object
 
+What was the most difficult part of this challenge?
+Overall the challenge was fun. I did not have a hard time with the challenge but 
+I did have a hard time trying to convert my solution from individual functions into one constructor. 
+I just decided to make that my own challenge.
 
-
-
-
-
+Did an array or object make more sense to use and why?
+I decided to make an object because we were going to assign values to each property of items.
+*/
