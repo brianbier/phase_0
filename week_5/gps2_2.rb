@@ -66,46 +66,46 @@ def print_list(grocery_list)
 end
 grocery_list = create_list("carrots apples cereal pizza")
 puts grocery_list
-add_item("Lemonade", grocery_list, 2)
-puts grocery_list
-add_item("Tomatoes", grocery_list, 3)
-puts grocery_list
-add_item("Onions", grocery_list, 1)
-puts grocery_list
-add_item("Ice Cream", grocery_list, 4)
-puts grocery_list
-remove_item("Lemonade", grocery_list)
-puts grocery_list
-update_quantity("Ice Cream", grocery_list, 1)
-puts grocery_list
-print_list(grocery_list)
-#REFACTORED CODE
-def create_list(string_list)
-  answer_hash = Hash.new
-  list_array = string_list.split(" ")
-  list_array.each do |item|
-    answer_hash[item] = 1
-  end
-  p answer_hash
-end
+# add_item("Lemonade", grocery_list, 2)
+# puts grocery_list
+# add_item("Tomatoes", grocery_list, 3)
+# puts grocery_list
+# add_item("Onions", grocery_list, 1)
+# puts grocery_list
+# add_item("Ice Cream", grocery_list, 4)
+# puts grocery_list
+# remove_item("Lemonade", grocery_list)
+# puts grocery_list
+# update_quantity("Ice Cream", grocery_list, 1)
+# puts grocery_list
+# print_list(grocery_list)
+# #REFACTORED CODE
+# def create_list(string_list)
+#   answer_hash = Hash.new
+#   list_array = string_list.split(" ")
+#   list_array.each do |item|
+#     answer_hash[item] = 1
+#   end
+#   p answer_hash
+# end
 
-def add_item(item, grocery_list, quantity = 1)
-  grocery_list[item] = quantity
-end
+# def add_item(item, grocery_list, quantity = 1)
+#   grocery_list[item] = quantity
+# end
 
-def update_quantity(item, grocery_list, quantity)
-  grocery_list[item] = quantity
-  end
+# def update_quantity(item, grocery_list, quantity)
+#   grocery_list[item] = quantity
+#   end
 
-def remove_item(item, grocery_list)
-  grocery_list.delete(item)
-end
+# def remove_item(item, grocery_list)
+#   grocery_list.delete(item)
+# end
 
-def print_list(grocery_list)
-  grocery_list.each do |item,quantity|
-    puts "Buy: #{quantity} #{item}"
-  end
-end
+# def print_list(grocery_list)
+#   grocery_list.each do |item,quantity|
+#     puts "Buy: #{quantity} #{item}"
+#   end
+# end
 =begin
 What did you learn about pseudocode from working on this challenge?
 I learned that when you create detail and specific pseudocode can help you a long way.
